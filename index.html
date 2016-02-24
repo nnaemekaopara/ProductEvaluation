@@ -2,10 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Product Evaluation</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
 </head>
+<header>
+
+
+    <h1 style="">Product Evaluation Form</h1>
+
+</header>
+
+
 <body>
-<h1>This is a test</h1>
-<p>testy test</p>
+
+<form name="form1"action="demo.aspx" method="post">
+
+
+    <table>
+        <tr>
+            <td>First Name </td>
+            <td><input type="text" placeholder="First Name" name="name"value=""autofocus/></td>
+        </tr>
+        <tr>
+            <td>Last Name </td>
+            <td><input type="text"placeholder="Last Name" name="name"value=""/></td>
+        </tr>
+
+        <tr>
+            <td>Email </td>
+            <td><input type="text" placeholder="Email Address" name="email"value=""/></td>
+        </tr>
+        <tr>
+            <td>Mobile No</td>
+            <td><input type="text" placeholder="M0bile Number" name="Mobile Numebr"value=""/></td>
+        </tr>
+
+        <tr>
+            <td>Gender </td>
+            <td>
+                <input type="radio"name="mfGender"value=""id="Male"/><label for="Male">Male</label>
+                <input type="radio"name="mfGender"value=""id="Female"/><label for="Female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Country </td>
+            <td>  <select name="Country">
+                <option value="US">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="NIG">Nigeria</option>
+                <option value="GER">Germany</option>
+                <option value="BRA">Brazil</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td>State </td>
+            <td><input type="text" name="state"value=""
+                       placeholder="State"/></td>
+        </tr>
+        <tr>
+            <td>Address </td>
+            <td><input type="text" placeholder="Address" name="Address"value=""/></td>
+        </tr>
+        <br>
+
+
+
+        <td>Product Rate </td>
+        <td><select name="Product Rate">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select></td>
+        </tr>
+
+        <tr>
+            <td>Comments </td>
+            <td><textarea type="text"rows="5" cols="40" name="comment"value=""/></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Suggestions </td>
+            <td><textarea type="text" rows="6" cols="40" name="suggestions"value=""/></textarea></td>
+        </tr>
+
+    </table>
+    </br>
+
+    <input type ="reset" name="name" value="Reset"/>
+    <input type="submit" name="btnSubmit" value="Submit"/>
+
+
+</form>
+
 </body>
+<br>
+<br>
+<footer>
+
+
+    <p>(c) 2016 BLUEBIRDCMAST <i style="">We do appreciate the time you take in dong so</i><br></p>
+
+
+</footer>
 </html>
