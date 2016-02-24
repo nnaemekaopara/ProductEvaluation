@@ -1,0 +1,28 @@
+h1
+{
+    text-align: Center;
+    background:Steelblue;
+    color: mintcream;
+    font-family:'Yanone Kaffeesatz', sans-serif;;
+}
+
+h2{
+    text-align: center;
+text-decoration-color: chocolate;
+    color: darkgoldenrod;
+
+}
+image{
+    max-width: 30%;
+    max-height: 30;
+}
+
+body{
+    background:lightskyblue;
+    font-family: inherit;
+}
+footer{
+    text-align: end;
+    background:steelblue;
+    color: mintcream;
+}
